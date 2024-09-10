@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #543310;
+}
+.navbar ul{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    float:  right;
+    margin: 30px;
+}
+.navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    margin: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.navbar ul li:hover{
+    color: black;
+    background-color: grey;
+    transform: scale(1.2);
+}
+.rightmain{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.leftmain{
+    float: left;
+}
+.footer{
+    clear: both;
+   
+    text-align: right;
+}
+h1{
+    margin: 20px 30px;
+    
+}
+.pensionimg{
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+.financeimg{
+    float: left;
+    height: 150px;
+    width: 150px;
+
+}
+@media (max-width : 680px){
+.logo{
+    width: 50px;
+}
+}
+
+    
